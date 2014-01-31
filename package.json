@@ -1,31 +1,38 @@
 {
-    "name": "console-colour",
-    "version": "0.0.2",
-    "description": "Change your terminal output colour",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/ngot/console-colour"
-    },
-    "homepage": "https://github.com/ngot/console-colour",
-    "keywords": [
-        "color",
-        "colors",
-        "console",
-        "terminal",
-        "colour",
-        "colours"
-    ],
-    "bugs": {
-        "url": "https://github.com/ngot/console-colour/issues",
-        "email": "zhuanghengfei@ngot.me"
-    },
-    "files": ["index.js", "LICENSE", "package.json", "README.md","examples"],
-    "author": "ngot",
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "https://github.com/tkellen/node-matchdep/blob/master/LICENSE-MIT"
-        }
-    ]
+  "name": "console-colour",
+  "version": "0.0.3",
+  "description": "Change your terminal output colour",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ngot/console-colour"
+  },
+  "homepage": "https://github.com/ngot/console-colour",
+  "keywords": [
+    "color",
+    "colors",
+    "console",
+    "terminal",
+    "colour",
+    "colours"
+  ],
+  "bugs": {
+    "url": "https://github.com/ngot/console-colour/issues",
+    "email": "zhuanghengfei@ngot.me"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "examples"
+  ],
+  "author": "ngot",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tkellen/node-matchdep/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {}
 }

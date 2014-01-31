@@ -24,7 +24,7 @@ Some examples from the `examples` directory.
 
 ## Colors
 
-Control colored output. See also `examples/colors.js`.
+Control colored output. See also `examples/examples.js`.
 
 Simple color changing:
 
@@ -34,4 +34,4 @@ Simple color changing:
 
 This will output `bold` in bold.
 
-For more usage ,please see `examples/colors.js`.
+For more usage ,please see `examples/examples.js`.
