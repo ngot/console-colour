@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/console-colour.png)](https://nodei.co/npm/console-colour/)
+
 # Console Colour
 
 `console-colour` is a small package that can be used with [node.js](http://nodejs.org) to control console output. The package can change the output text color.
