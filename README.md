@@ -2,7 +2,7 @@
 
 `console-colour` is a small package that can be used with [node.js](http://nodejs.org) to control console output. The package can change the output text color.
 
-# Installation and use
+###Installation
 
 Install with [npm](http://npmjs.org) to current directory:
 
@@ -10,28 +10,19 @@ Install with [npm](http://npmjs.org) to current directory:
   npm install console-colour --save
 ```
 
-Then `require()` package from your script:
-
+###Usage
+`require` package into your project:
 ```js
   require('console-colour')(String);
 ```
 
-# Examples
-
-Some examples from the `examples` directory.
-
-# Features
-
-## Colors
-
-Control colored output. See also `examples/examples.js`.
-
-Simple color changing:
-
+###Examples
 ```js
   console.log("bold".bold);
 ```
-
-This will output `bold` in bold.
+It will print the string `bold` in bold at terminal.
 
 For more usage ,please see `examples/examples.js`.
+
+###LICENSE
+#####MIT
