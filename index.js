@@ -1,5 +1,5 @@
 module.exports = function(String){
-
+		'use strict';
     var addProperty = function(color, func) {
         exports[color] = function(str) {
             return func.apply(str);
@@ -60,7 +60,7 @@ module.exports = function(String){
 
     function sequencer(map) {
         return function () {
-            var exploded = this.split(""), i = 0;
+            var exploded = this.split("");
             exploded = exploded.map(map);
             return exploded.join("");
         };
@@ -68,7 +68,7 @@ module.exports = function(String){
 
     var rainbowMap = (function () {
         var rainbowColors = ['red', 'yellow', 'green', 'blue', 'magenta']; //RoY G BiV
-        return function (letter, i, exploded) {
+        return function (letter, i) {
             if (letter === " ") {
                 return letter;
             } else {
