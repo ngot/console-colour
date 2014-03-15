@@ -1,4 +1,4 @@
-require('../index.js')(String);
+require('../index.js');
 
 console.log("bold".bold);
 

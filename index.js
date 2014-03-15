@@ -1,4 +1,4 @@
-module.exports = function(String){
+(function(){
 		'use strict';
     var addProperty = function(color, func) {
         exports[color] = function(str) {
@@ -78,4 +78,4 @@ module.exports = function(String){
     })();
 
     addProperty('rainbow', sequencer(rainbowMap));
-};
+})();

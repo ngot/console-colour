@@ -17,7 +17,7 @@ Install with [npm](http://npmjs.org) to current directory:
 ###Usage
 `require` package into your project:
 ```js
-  require('console-colour')(String);
+  require('console-colour');
 ```
 
 ###Examples
