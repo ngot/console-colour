@@ -19,10 +19,16 @@ Install with [npm](http://npmjs.org) to current directory:
 ```js
   require('console-colour');
 ```
+or
+`require` package into your project:
+```js
+  var cconsole = require('console-colour');
+```
 
 ###Examples
 ```js
   console.log("bold".bold);
+  console.log(cconsole.bold("bold"));
 ```
 It will print the string `bold` in bold at terminal.
 

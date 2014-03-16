@@ -1,6 +1,6 @@
 {
   "name": "console-colour",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Change your terminal output colour",
   "main": "index.js",
   "repository": {
