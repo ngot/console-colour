@@ -17,12 +17,12 @@ Install with [npm](http://npmjs.org) to current directory:
 ###Usage
 `require` package into your project:
 ```js
-  require('console-colour');
+  require('console-colour')(String);
 ```
 or
 `require` package into your project:
 ```js
-  var cconsole = require('console-colour');
+  var cconsole = require('console-colour').color;
 ```
 
 ###Examples
